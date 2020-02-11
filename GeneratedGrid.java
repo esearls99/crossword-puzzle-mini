@@ -124,14 +124,6 @@ public class GeneratedGrid {
         }
     }
 
-    private void clearGridWithInput() {
-        for (int i = 1; i < getDimension(); i++) {
-            if (i != this.midPoint) {
-                removeWordUnder(i);
-            }
-        }
-    }
-
     private void removeWordUnder(int index) { // removes the word under the top row. this prevents the remove word
                                               // method from disrupting the initial grid.
         for (int i = 1; i < getDimension(); i++) {
