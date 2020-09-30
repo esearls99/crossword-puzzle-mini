@@ -12,4 +12,10 @@ Choose the generation method [brutal | DFS]. Choose brutal for brute force and D
 
 INFO:
 
-This is a project I worked on last year. At the time I was inspired by the New York Times daily miniature crossword app where each day there's a new "dense" miniature crossword. They tend to be fairly easy so I figured it might be fun to try to generate them randomly from a wordbank. This challenge proved to be far more difficult than I had anticipated, seeing as the time complexity of finding a mini-crossword increases at what I think is an exponential rate for an N x N crossword. I tried two approaches to this problem, using a simple brute force algorithm and a depth-first-search algorithm. Both are far too slow and can only compute up to a 4x4 crossword, although theoretically, this program could create a 5x5 crossword given enough time. I don't think I'm quite done with this project, since I was quite dissatisfied with its speed. In the future, I hope to try to implement Donald Knuth's Dancing Links algorithm which might be able to optimize the depth-first search approach.
+This is a project I worked on last year. 
+At the time I was inspired by the New York Times daily miniature crossword app where each day there's a new "dense" miniature crossword. 
+They tend to be fairly easy so I figured it might be fun to try to generate them randomly from a wordbank. 
+I tried two approaches to this problem, using a simple brute force algorithm and a depth-first-search algorithm. 
+Both are far too slow and can only compute up to a 4x4 crossword, although theoretically, this program could create a 5x5 crossword given enough time. 
+I don't think I'm quite done with this project, since I was quite dissatisfied with its speed. 
+In the future, I hope to try to implement another faster algorithm.
