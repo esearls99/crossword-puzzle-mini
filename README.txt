@@ -17,5 +17,6 @@ At the time I was inspired by the New York Times daily miniature crossword app w
 They tend to be fairly easy so I figured it might be fun to try to generate them randomly from a wordbank. 
 I tried two approaches to this problem, using a simple brute force algorithm and a depth-first-search algorithm. 
 Both are far too slow and can only compute up to a 4x4 crossword, although theoretically, this program could create a 5x5 crossword given enough time. 
-I don't think I'm quite done with this project, since I was quite dissatisfied with its speed. 
-In the future, I hope to try to implement another faster algorithm.
+This project is not at all ideal. It's incredibly slow. 
+I iterate through the entire word bank for each letter and there's just a tremendous amount of backtracking.
+I could implement more mature data structures with faster worst-case lookup speeds and I think that might make this project faster.
